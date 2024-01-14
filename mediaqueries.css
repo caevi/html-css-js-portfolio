@@ -23,3 +23,14 @@
     overflow:hidden;
     transition: all 0.3 ease-in-out;
 }
+.menu-links li {
+    list-style:none;
+}
+.menu-links.open{
+    max-height:300px;
+}
+.hamburger-icon.open span:first-child {
+    transform:rotate(45deg) translate(10px,5px);
+    
+
+}  
