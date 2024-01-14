@@ -43,10 +43,10 @@ a{
     text-decoration-color:white;
 }
 a:hover{
-    color:grey;
+    color:black;
     text-decoration: underline;
     text-underline-offset:1rem;
-    text-decoration-color:rgb(181, 181,181);
+    text-decoration-color:black;
 
 }
 .logo{
@@ -125,7 +125,7 @@ section{
 .section_text_p2{
     font-size: 1.75rem;
     margin-bottom:1rem;
-    color:rgb(53,53,53);
+    color: black;
 }
 .title{
     font-size:3rem;
