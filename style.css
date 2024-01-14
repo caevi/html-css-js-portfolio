@@ -6,7 +6,7 @@
 }
 body{
     font-family:'Poppins', 'sans-serif';
-    background-color:grey;
+    background:linear-gradient(#666699,#3366cc );
     color:white;
 }
 html{
@@ -177,3 +177,31 @@ section{
  .btn-container{
     gap:1rem;
  }
+
+ /* ANimation */
+ h1,p {
+    animation-duration:2s;
+    animation-name: bounce;
+ }
+ @keyframes bounce{
+    from {
+        margin-left:30%;
+    }
+    to{
+        margin-left:0%;
+    }
+ }
+ .section_pic-container img{
+    border-radius:50%;
+    animation-name: bounce;
+    animation-duration:3s;
+
+}
+@keyframes bounce{
+    from {
+        margin-bottom:30%;
+    }
+    to {
+        margin-bottom:0%;
+    }
+}
