@@ -120,6 +120,7 @@ section{
     height:400px;
     width:400px;
     margin:auto 0; 
+    
 }
 .section_text{
     align-self:center;
@@ -151,6 +152,14 @@ section{
 .icon{
     cursor:pointer;
     height:2rem; 
+}
+/* Footer */
+footer p {
+    color:black;
+    font-size: 20%;
+    text-align:center;
+    border-top: solid lightgrey;
+    margin-top: 20px;
 }
 /* Buttons */
 .btn-container{
@@ -201,7 +210,7 @@ section{
     }
  }
  .section_pic-container img{
-    border-radius:50%;
+    border-radius:30%;
     animation-name: bounce;
     animation-duration:3s;
 
