@@ -198,7 +198,7 @@ footer p {
 
  /* ANimation */
  h1,p {
-    animation-duration:2s;
+    animation-duration:3s;
     animation-name: bounce;
  }
  @keyframes bounce{
