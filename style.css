@@ -6,7 +6,8 @@
 }
 body{
     font-family:'Poppins', 'sans-serif';
-    background:linear-gradient(#666699,#3366cc );
+   /*  background:linear-gradient(#666699,#3366cc ); */
+   background:linear-gradient(#003366, #ffffff );
     color:white;
 }
 html{
