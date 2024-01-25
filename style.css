@@ -7,7 +7,9 @@
 body{
     font-family:'Poppins', 'sans-serif';
    /*  background:linear-gradient(#666699,#3366cc ); */
-   background:linear-gradient(#003366, #ffffff );
+   background:linear-gradient(#000066, #ffffff );
+   /* #003366*/
+
     color:white;
 }
 html{
