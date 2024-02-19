@@ -8,7 +8,9 @@
 body{
     font-family:'Poppins', 'sans-serif';
    /*  background:linear-gradient(#666699,#3366cc ); */
-   background:linear-gradient(#003366, #ffffff );
+   background:linear-gradient(#000066, #ffffff );
+   /* #003366*/
+
     color:white;
 }
 
@@ -48,6 +50,11 @@ a:hover{
     text-decoration: underline;
     text-underline-offset:1rem;
     text-decoration-color:black;
+}
+.logo a:hover{
+    color:white;
+    text-decoration: none;
+    text-decoration-color:white;
 }
 .logo{
     margin-right:300px;
@@ -180,7 +187,7 @@ footer p {
     transition:all 300ms ease;
     padding:1rem;
     width: 8rem;
-    border-radius:2rem; 
+    border-radius:0.5rem; 
 }
 
 .btn-color-1, .btn-color-2{
