@@ -402,6 +402,14 @@ a .color-change:hover{
 }
 .footer ul li a{
     color:black; 
-    height:26vh;
+    
 
+}
+
+footer{
+    height:26vh;
+    margin: 0 1rem; 
+}
+footer p {
+    text-align:center; 
 }
