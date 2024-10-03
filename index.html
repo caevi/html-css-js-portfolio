@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carlo's Portfolio</title>
+    <title>rce.dev</title>
     <link rel = "stylesheet" href="style.css">
     <link rel = "stylesheet" href="mediaqueries.css">
     <link rel="icon" href="assets/carlo.png" type="image/png">
@@ -25,7 +25,7 @@
                 <li><a href = "#about">About</a></li>
                 <li><a href = "#experience">Experience</a></li>
                 <li><a href = "#projects">Projects</a></li>
-                <li><a href = "mailto:carloevidente@hotmail.com">Contact</a></li>
+                <li><a href = "#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -44,7 +44,7 @@
             <li><a href = "#about"  onclick="toggleMenu()">About</a></li>
             <li><a href = "#experience" onclick="toggleMenu()">Experience</a></li>
             <li><a href = "#projects" onclick="toggleMenu()">Projects</a></li>
-            <li><a href = "mailto:carloevidente@hotmail.com" onclick="toggleMenu()">Contact</a></li>
+            <li><a href = "#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
     </div>
 </nav>
@@ -57,7 +57,7 @@
         <h1 class="title"> Carlo Evidente</h1>
         <p class="section_text_p2">Student At Centennial College</p>
         <div class="btn-container">
-            <button class="btn btn-color-2" onclick="window.open('./assets/officialresume.pdf')">Resume </button>
+            <button class="btn btn-color-2" onclick="window.open('./assets/RamonEvidente_Resume2024.pdf')">Resume </button>
             <button class="btn btn-color-1"onclick="location.href='mailto:carloevidente@hotmail.com'">Email Me!</button>
         </div>
         <div id="socials-container">
@@ -210,33 +210,33 @@
         <div class="about-containers"> 
         <div class = "details-containers color-container">
             <div class="article-container"> 
-                <img src="./assets/project-1.png" alt="project 1" class="project-img"/>
+                <img src="./assets/pomodoro.png" alt="project 1" class="project-img"/>
             </div>
             <h2 class="experience-sub-title project-title">Pomodoro Timer</h2>
             <div class="btn-container">
-                <button class= "btn btn-color-2 project-btn" onclick="location.href=``">
+                <button class= "btn btn-color-2 project-btn" onclick="location.href='https://github.com/caevi/new-pomodoro-timer'">
                     Github
                 </button>
             </div>
                 </div>  
                 <div class = "details-containers color-container">
                     <div class="article-container"> 
-                        <img src="./assets/llamma.png" alt="project 1" class="project-img"/>
+                        <img src="./assets/llamma.png" alt="project 2" class="project-img"/>
                     </div>
                     <h2 class="experience-sub-title project-title">Catch The Llama Game</h2>
                     <div class="btn-container">
-                        <button class= "btn btn-color-2 project-btn" onclick="location.href=``">
+                        <button class= "btn btn-color-2 project-btn" onclick="location.href='https://github.com/caevi/catchthellama'">
                             Github
                         </button>
                     </div>
                         </div>  
                         <div class = "details-containers color-container">
                             <div class="article-container"> 
-                                <img src="./assets/project-1.png" alt="project 1" class="project-img"/>
+                                <img src="./assets/retail.png" alt="project 3" class="project-img"/>
                             </div>
                             <h2 class="experience-sub-title project-title">Retail Website</h2>
                             <div class="btn-container">
-                                <button class= "btn btn-color-2 project-btn" onclick="location.href=``">
+                                <button class= "btn btn-color-2 project-btn" onclick="location.href='https://github.com/caevi/retail-website'">
                                     Github
                                 </button>
                             </div>
@@ -246,8 +246,32 @@
         </div>
     </div>
 </section>
+<section id ="contact">
+    <p class="section_text_p1 color-change"> Connect With Me! </p>
+    <h1 class = "title color-change"> Contact Me</h1>
+    <div class ="contact-info-upper-container">
+    <div class="contact-info-container">
+        <img src="./assets/email.png" class="icon contact-icon email-icon" alt ="email icon"/>
+        <p class="color-change"><a class="color-change" href="mailto:carloevidente@hotmail.com">carloevidente@hotmail.com</a></p>
+    </div>
+    <div class="contact-info-container">
+        <img src="./assets/linkedin.png" class="icon contact-icon" alt ="email icon"/>
+        <p><a class="color-change" href="linkedin.com/in/ramon-evidente-368ab9229">LinkedIn</a></p>
+    </div>
+</div>
+</section>
 <footer> 
-    <p> &copy; Copyright Carlo Evidente </p>
+    <nav>
+        <div class ="nav-links-container">
+            <ul class ="nav-links"> 
+                <li><a class="color-change" href = "#about">About</a></li>
+                <li><a class="color-change" href = "#experience">Experience</a></li>
+                <li><a class="color-change" href = "#projects">Projects</a></li>
+                <li><a class="color-change" href = "#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <p>Copyright &#169;, 2024 Carlo Evidente</p>
 </footer>
 </body>
     <script src="script.js"></script>
